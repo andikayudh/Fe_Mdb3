@@ -3,7 +3,7 @@ const handleCheckChange = (
     object_id: string,
     existingLabels: string[],
     channel:number,
-  ) => {
+  )  {
     if (checked) {
       setSelectedRows([...selectedRows, object_id]);
       const newTemp = [...existingLabels];
